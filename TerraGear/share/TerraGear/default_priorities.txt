@@ -1,0 +1,104 @@
+Default				# Default area which can be overridden by
+				# raster landcover data (e.g. USGS)
+Ocean				# collect slivers as ocean
+
+# Area types in order of descending priority
+Hole			hole	# Leave area completely empty
+
+Freeway			road
+Road			road
+Road-Motorway       road
+Road-Trunk          road
+Road-Residential	road
+Road-Primary	    road
+Road-Secondary	    road
+Road-Tertiary	    road
+Road-Service	    road
+Road-Pedestrian	    road
+Road-Steps          road
+Road-Unclassified   road
+
+Railroad		road
+Asphalt			road
+Pond			lake
+Lake			lake
+DryLake			lake
+Reservoir		lake
+IntermittentLake	lake
+Stream			stream
+River			stream
+IntermittentStream	stream
+Watercourse		stream
+Canal			stream
+Glacier			other	# Solid ice/snow
+PackIce			other	# Water with ice packs
+PolarIce		other
+Ocean			ocean
+Urban			other	# Densely-populated city or large town
+SubUrban		other	# Densely-populated city or large town
+Town			other	# Small town or village
+Fishing			other
+Construction		other
+Industrial		other
+Port			other
+Dump			other	# Dump Site
+FloodLand		other	# Land subject to flooding
+Lagoon			other	# Lagoon
+Bog			other	# Bog
+Marsh			other	# Marshland or swamp
+SaltMarsh		other
+Sand			other	# Sand-covered area
+Saline			other	# Saline
+Littoral		other	# Tidal, Sand-covered area
+Estuary			other
+Dirt			other
+Rock			other	# Rock
+Lava			other	# Lava-covered area
+OpenMining		other	# OpenMining
+Airport			other
+
+# USGS Land Covers
+# These are low-priority, since known polygons should always win.
+
+BuiltUpCover		other	# Urban and Built-Up Land
+Transport		other	# Transport
+Cemetery		other	# Cemetery
+DryCrop			other	# Dryland Cropland and Pasture
+IrrCrop			other	# Irrigated Cropland and Pasture
+Rice			other
+MixedCrop		other	# Mixed Dryland/Irrigated Cropland and Pasture
+Vineyard		other
+Bamboo			other
+Mangrove		other
+ComplexCrop		other	# Complex Cropland
+NaturalCrop		other
+CropGrass		other	# Cropland/Grassland Mosaic
+CropWood		other	# Cropland/Woodland Mosaic
+AgroForest		other
+Olives			other
+GolfCourse		other	# GolfCourse
+Greenspace		other
+GrassCover		other	# Grassland
+Grassland		other
+ScrubCover		other	# Scrub
+Scrub			other
+ShrubGrassCover		other	# Mixed Shrubland/Grassland
+SavannaCover		other	# Savanna
+Orchard			other	# Orchard
+DeciduousForest		other	# Deciduous Forest
+EvergreenForest		other	# Evergreen Forest
+MixedForest		other	# Mixed Forest
+RainForest		other	# Rain Forest
+BarrenCover		other	# Barren or Sparsely Vegetated
+HerbTundra		other	# Herbaceous Tundra
+Sclerophyllous		other
+Heath			other
+Burnt			other
+SnowCover		other	# Snow or Ice
+
+Island			island	# any island area not covered otherwise
+Default			landmass # any land area not covered otherwise
+
+Void			other
+Null			other
+Unknown			other
